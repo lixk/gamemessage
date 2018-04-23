@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * Created by lixk185 on 2018/4/18.
+ * @author lixk
  */
 @Controller
 @RequestMapping("/webSocket")

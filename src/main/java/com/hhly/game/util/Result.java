@@ -1,9 +1,13 @@
 package com.hhly.game.util;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
+
 /**
  * 返回结果封装类
  * Created by lixk on 2017/10/16.
  */
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Result {
     public static final int SUCCESS = 200;
     public static final int FAILED = 300;
